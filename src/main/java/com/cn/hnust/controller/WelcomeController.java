@@ -12,11 +12,8 @@ public class WelcomeController {
 	@RequestMapping("/login")
 	public String userLogin(HttpServletRequest request){
 		System.out.println("Step into login mehod");
-		
-		
 		return "index";
 	} 
-	
 	@RequestMapping("/register")
 	public String userRegister(HttpServletRequest request){
 		System.out.println("++++++++++++++");
